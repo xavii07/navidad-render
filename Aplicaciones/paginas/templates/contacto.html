@@ -1,0 +1,39 @@
+{% extends "./plantilla.html" %} {% block contenido %}
+<div class="quienes-container">
+  <div
+    class="container d-flex justify-content-center flex-column align-items-center"
+  >
+    <h1 class="subtitulos">Contactanos</h1>
+    <img src="https://navidad.com/images/contac.jpg" alt="" />
+    <p>
+      En Navidad.com nos interesa saber sus opiniones, dudas, comentarios o
+      sugerencias, así que en el momento que guste puede usted entrar en
+      contacto con nosotros al llenar este formulario y enviarlo a nuestro
+      correo electrónico.
+    </p>
+    <div class="container-form p-4">
+      <form class="text-dark form">
+        <div>
+          <label for="nombre">*Nombre:</label><input required type="text" />
+        </div>
+        <div>
+          <label for="telefono">*Telefono:</label><input required type="text" />
+        </div>
+        <div>
+          <label for="asunto">*Asunto:</label><input required type="text" />
+        </div>
+        <div>
+          <label for="email">*E-mail Personal:</label
+          ><input required type="email" />
+        </div>
+        <div>
+          <label for="comentario">*Comentario Adicional:</label
+          ><textarea cols="24" rows="2"></textarea>
+        </div>
+        <button class="boton-form">Limpiar</button>
+        <button class="boton-form">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock contenido %}

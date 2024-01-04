@@ -1,0 +1,38 @@
+{% extends "./plantilla.html" %} {% block contenido %}
+<div class="quienes-container">
+  <div
+    class="container d-flex justify-content-center flex-column align-items-center"
+  >
+    <h1 class="subtitulos">Carta a Santa</h1>
+    <img src="https://navidad.com/images/img-quienes-somos.jpg" alt="" />
+    <p class="parrafo-carta">
+      Envíale a <span class="orange">Papá Noel</span> o a
+      <span class="orange">los Reyes Magos</span> tu carta, explicando cuáles
+      son tus deseos para estas Navidades. No necesitas poner sello y llegará
+      directamente a sus manos para que atiendan personalmente tus peticiones.
+      No olvides que debes portarte bien todo el año para que te dejen todos los
+      regalos pedidos.
+    </p>
+    <div class="row">
+      <div class="col-6">
+        <img
+          src="https://navidad.com/images/carta-a-santa-01.jpg"
+          alt=""
+          class="imagen-carta-santa"
+        />
+        <h2 class="subtitulo">Mi carta para Santa</h2>
+      </div>
+      <div class="col-6">
+        <img
+          src="https://navidad.com/images/carta-a-los-reyes-magos-01.jpg"
+          alt=""
+          class="imagen-carta-santa"
+        />
+        <h2 class="subtitulo">Mi carta a los Reyes Magos</h2>
+      </div>
+    </div>
+
+    <a class="btn-carta-santa" href="/">Regresar</a>
+  </div>
+</div>
+{% endblock contenido %}
